@@ -29,14 +29,14 @@ A scalable object-oriented Java implementation of a mini role-playing game comba
 └── DemoRPG.java (Main demo + battle)
 ```
 
-## 🚀 Quick Start - Complete Execution Guide
+## Quick Start - Complete Execution Guide
 
 ### Prerequisites
 - **Java 8+** installed (JDK, not just JRE)
 - **Command line/terminal** access
 - All `.java` files in **same folder**
 
-### 📋 Step-by-Step Instructions
+### Step-by-Step Instructions
 
 #### **Method 1: Command Line (Recommended)**
 
@@ -83,12 +83,12 @@ java DemoRPG
 5. Constraint enforcement: HP 0-maxHP, level≥1, alive checks
 
 ## 📈 Extensibility
-**Easy to add**:
+```**Easy to add**:
 ├── New roles: `Paladin extends Character`
 ├── New abilities: `ShieldAbility implements Ability`  
 ├── Multiplayer: `Player vs Player` battle loop
 └── GUI: Swing/JavaFX integration
-
+```
 
 
 
