@@ -14,7 +14,7 @@ A scalable object-oriented Java implementation of a mini role-playing game comba
 -  **Demo scenario**: 3+ turn battle with status display after each action
 
 ##  Project Structure
-
+```
 **MiniRPG**/
 ├── Ability.java (Interface)
 ├── FireballAbility.java (Damage ability)
@@ -27,7 +27,7 @@ A scalable object-oriented Java implementation of a mini role-playing game comba
 ├── InsufficientManaException.java
 ├── AbilityLimitReachedException.java
 └── DemoRPG.java (Main demo + battle)
-
+```
 
 ## 🚀 Quick Start - Complete Execution Guide
 
