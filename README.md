@@ -2,6 +2,8 @@
  
 A scalable object-oriented Java implementation of a mini role-playing game combat system featuring **Warrior**, **Wizard**, and **Archer** characters with abilities, exception handling, and console-based battle demo.
 
+## Source code folder: src/jeupersonage
+
 ## Features Implemented
 -  **General character modeling**: name, level, HP (current/max), 2-slot ability system
 -  **Role differentiation**: 
