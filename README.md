@@ -69,19 +69,21 @@ java DemoRPG
 | Archer  | precision=14, agility=10  | 12 + precision/2 + level  | 20% crit chance (double damage)     |
 
 ## Exception Handling
+```
 > DeadCharacterException: Blocks dead char actions
 > InsufficientManaException: Wizard mana validation  
 > AbilityLimitReachedException: Max 2 abilities enforced
 > try-catch blocks ensure graceful battle continuation
-
+```
 
 ## 🔧 Key Design Decisions
+```
 1. Polymorphism: attack(Character) varies by role
 2. Encapsulation: Private stats, public getters
 3. Defense system: getDefenseValue() in Character (0 default)
 4. Ability interface: Easy extension (add ShieldAbility, etc.)
 5. Constraint enforcement: HP 0-maxHP, level≥1, alive checks
-
+```
 ## 📈 Extensibility
 ```**Easy to add**:
 ├── New roles: `Paladin extends Character`
